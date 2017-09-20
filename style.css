@@ -1,0 +1,53 @@
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#box {
+    width: 540px;
+    height: 550px;
+    background-color: #eaeaff;
+
+}
+
+#car {
+    height: 18px !important;
+    width: 18px !important;
+    margin: 3px;
+    border: 1px;
+    position: absolute;
+    background-color: #FFF;
+}
+
+#box div {
+    height: 25px;
+    width: 25px;
+    float: left;
+    border: 1px black solid;
+    border: 1px rgba(0, 0, 0, 0) solid;
+    font-size: 0.6em;
+}
+
+.parede {
+    background-color: #b9f1ab;
+}
+
+.quadrado {
+    background-color: #424546;
+}
+
+#box div label {
+    color: #FFF;
+    font-size: 2em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#quadroLog {
+    position: absolute;
+    top: 10px;
+    font-size: 11px;
+    height: 550px;
+    width: 260px;
+    left: 560px;
+    background: #e3e8e8;
+}

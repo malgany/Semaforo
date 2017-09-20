@@ -1,0 +1,176 @@
+<script id="worker1" type="javascript/worker">
+            self.onmessage = function(e) {
+
+                var tempoS = 5000;
+                // Semáforo 1
+                var estado_1 = 1;
+                setInterval(function() {
+                    if(estado_1 == 1) {
+                        cor_1 = "red";
+                        cor2_1 = "#16ff16";
+                        estado_1 = 2;
+                    }else if(estado_1 == 2) {
+                        cor_1 = "#16ff16";
+                        cor2_1 = "red";
+                        estado_1 = 1;
+                    }
+                    self.postMessage({"semaforo":1, "cor": cor_1, "cor2": cor2_1});
+                }, tempoS);
+
+                // Semáforo 2
+                var estado_2 = 1;
+                setInterval(function(){
+                    if(estado_2 ==  1) {
+                        estado_2 = 2;
+                        self.postMessage({"semaforo":2, "cor": "red", "cor2": "#16ff16"});
+                    }else if(estado_2 == 2) {
+                        estado_2 = 1;
+                        self.postMessage({"semaforo":2, "cor": "#16ff16", "cor2": "red"});
+                    }
+                }, tempoS);
+
+                // Semáforo 3
+                var estado_3 = 1;
+                setInterval(function(){
+                    if(estado_3 ==  1) {
+                        estado_3 = 2;
+                        self.postMessage({"semaforo":3, "cor": "red", "cor2": "#16ff16"});
+                    }else if(estado_3 == 2) {
+                        estado_3 = 1;
+                        self.postMessage({"semaforo":3, "cor": "#16ff16", "cor2": "red"});
+                    }
+                }, tempoS);
+
+                // Semáforo 4
+                var estado_4 = 1;
+                setInterval(function(){
+                    if(estado_4 ==  1) {
+                        estado_4 = 2;
+                        self.postMessage({"semaforo":4, "cor": "red", "cor2": "#16ff16"});
+                    }else if(estado_4 == 2) {
+                        estado_4 = 1;
+                        self.postMessage({"semaforo":4, "cor": "#16ff16", "cor2": "red"});
+                    }
+                }, tempoS);
+
+                // Semáforo 5
+                var estado_5 = 1;
+                setInterval(function(){
+                    if(estado_5 ==  1) {
+                        estado_5 = 2;
+                        self.postMessage({"semaforo":5, "cor": "red", "cor2": "#16ff16"});
+                    }else if(estado_5 == 2) {
+                        estado_5 = 1;
+                        self.postMessage({"semaforo":5, "cor": "#16ff16", "cor2": "red"});
+                    }
+                }, tempoS);
+
+                // Semáforo 6
+                var estado_6 = 1;
+                setInterval(function(){
+                    if(estado_6 ==  1) {
+                        estado_6 = 2;
+                        self.postMessage({"semaforo":6, "cor": "red", "cor2": "#16ff16"});
+                    }else if(estado_6 == 2) {
+                        estado_6 = 1;
+                        self.postMessage({"semaforo":6, "cor": "#16ff16", "cor2": "red"});
+                    }
+                }, tempoS);
+
+                // Semáforo 7
+                var estado_7 = 1;
+                setInterval(function(){
+                    if(estado_7 ==  1) {
+                        estado_7 = 2;
+                        self.postMessage({"semaforo":7, "cor": "red", "cor2": "#16ff16"});
+                    }else if(estado_7 == 2) {
+                        estado_7 = 1;
+                        self.postMessage({"semaforo":7, "cor": "#16ff16", "cor2": "red"});
+                    }
+                }, tempoS);
+
+                // Semáforo 8
+                var estado_8 = 1;
+                setInterval(function(){
+                    if(estado_8 ==  1) {
+                        estado_8 = 2;
+                        self.postMessage({"semaforo":8, "cor": "red", "cor2": "#16ff16"});
+                    }else if(estado_8 == 2) {
+                        estado_8 = 1;
+                        self.postMessage({"semaforo":8, "cor": "#16ff16", "cor2": "red"});
+                    }
+                }, tempoS);
+
+                // Semáforo 9
+                var estado_9 = 1;
+                setInterval(function(){
+                    if(estado_9 ==  1) {
+                        estado_9 = 2;
+                        self.postMessage({"semaforo":9, "cor": "red", "cor2": "#16ff16"});
+                    }else if(estado_9 == 2) {
+                        estado_9 = 1;
+                        self.postMessage({"semaforo":9, "cor": "#16ff16", "cor2": "red"});
+                    }
+                }, tempoS);
+
+                // Semáforo 10
+                var estado_10 = 1;
+                setInterval(function(){
+                    if(estado_10 ==  1) {
+                        estado_10 = 2;
+                        self.postMessage({"semaforo":10, "cor": "red", "cor2": "#16ff16"});
+                    }else if(estado_10 == 2) {
+                        estado_10 = 1;
+                        self.postMessage({"semaforo":10, "cor": "#16ff16", "cor2": "red"});
+                    }
+                }, tempoS);
+
+                // Semáforo 11
+                var estado_11 = 1;
+                setInterval(function(){
+                    if(estado_11 ==  1) {
+                        estado_11 = 2;
+                        self.postMessage({"semaforo":11, "cor": "red", "cor2": "#16ff16"});
+                    }else if(estado_11 == 2) {
+                        estado_11 = 1;
+                        self.postMessage({"semaforo":11, "cor": "#16ff16", "cor2": "red"});
+                    }
+                }, tempoS);
+
+                // Semáforo 12
+                var estado_12 = 1;
+                setInterval(function(){
+                    if(estado_12 ==  1) {
+                        estado_12 = 2;
+                        self.postMessage({"semaforo":12, "cor": "red", "cor2": "#16ff16"});
+                    }else if(estado_12 == 2) {
+                        estado_12 = 1;
+                        self.postMessage({"semaforo":12, "cor": "#16ff16", "cor2": "red"});
+                    }
+                }, tempoS);
+
+                // Semáforo 13
+                var estado_13 = 1;
+                setInterval(function(){
+                    if(estado_13 ==  1) {
+                        estado_13 = 2;
+                        self.postMessage({"semaforo":13, "cor": "red", "cor2": "#16ff16"});
+                    }else if(estado_13 == 2) {
+                        estado_13 = 1;
+                        self.postMessage({"semaforo":13, "cor": "#16ff16", "cor2": "red"});
+                    }
+                }, tempoS);
+
+                // Semáforo 14
+                var estado_14 = 1;
+                setInterval(function(){
+                    if(estado_14 ==  1) {
+                        estado_14 = 2;
+                        self.postMessage({"semaforo":14, "cor": "red", "cor2": "#16ff16"});
+                    }else if(estado_14 == 2) {
+                        estado_14 = 1;
+                        self.postMessage({"semaforo":14, "cor": "#16ff16", "cor2": "red"});
+                    }
+                }, tempoS);
+            };
+        </script>
