@@ -10,7 +10,7 @@ git clone https://github.com/malgany/Semaforo.git
 
 ## Usage
 
-* Execute calculadora.html para abrir a calculadora que preve estados do semaforo
+* Execute calculadora.html para abrir a calculadora que prevë estados do semaforo
 * Execute semaforo.html para abrir o simulador de semáforo
 
 ![Semaforo](semaforo.gif)
